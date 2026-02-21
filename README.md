@@ -4,7 +4,8 @@ Works with ESPHome 2026.2.1
 
 Here is an example YAML to use (based on the Wifi Connect:
 
-```esphome:
+```
+esphome:
   name: coffee
   friendly_name: Coffee
 
@@ -117,4 +118,5 @@ button:
     icon: "mdi:beer-outline"
     on_press:
       lambda: |-
-        id(my_jura).cmd2jura("FA:08");```
+        id(my_jura).cmd2jura("FA:08");
+```
